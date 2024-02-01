@@ -53,10 +53,7 @@ void merge_sort(int A[], int inicio, int fin) {
 }
 
 
-
-
-
-void intercambiar(int A[], int x, int y) {
+void intercambiar_rec(int A[], int x, int y) {
     int aux = A[x];
     A[x] = A[y];
     A[y] = aux;
@@ -75,12 +72,12 @@ int partition(int A[], int p, int r) {
     for (int i = p; i < r; i++) {
         if (A[i] < pivote) {
             ultimo += 1;
-            intercambiar(A, ultimo, i);
+            intercambiar_rec(A, ultimo, i);
         }
     }
 
     // Y se mueve al pivote a su posición correcta
-    intercambiar(A, ultimo + 1, r);
+    intercambiar_rec(A, ultimo + 1, r);
     return ultimo + 1;
 }
 
