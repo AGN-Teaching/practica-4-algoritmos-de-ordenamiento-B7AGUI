@@ -1,4 +1,4 @@
-void intercambiar(int A[], int x, int y) {
+void cambiar(int A[], int x, int y) {
     int aux = A[x];
     A[x] = A[y];
     A[y] = aux;
@@ -33,7 +33,7 @@ void selection_sort(int A[], int n) {
                 menor = i;
             }
         }
-        intercambiar (A, j, menor);
+        cambiar (A, j, menor);
     }
 }
 
@@ -44,7 +44,7 @@ void bubblesort(int A[], int n) {
         // Los primeros i elementos ya estan ordenados
         for (int j = n-1; j > i; j--) {
             if (A[j] < A[j-1]) {
-                intercambiar(A, j, j-1);
+                cambiar(A, j, j-1);
             }
         }
     }
