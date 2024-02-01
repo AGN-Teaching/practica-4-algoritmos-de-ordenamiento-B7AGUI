@@ -232,3 +232,12 @@ Una vez calculadas estas dos operaciones se realizó la siguiente tabla junto co
 
 
 ![image](https://github.com/AGN-Teaching/practica-4-algoritmos-de-ordenamiento-B7AGUI/assets/151887010/83db9ba8-41ea-43a5-b703-4910d9a3504a)
+
+
+Para empezar con el promedio obtenemos una medida que ayude a entender el rendimiento de cada algoritmo para cada arreglo, con la desviación estándar veremos una variación en los tiempos de ejecución promedio de cada algoritmo con lo que si obtenemos una desviación estándar pequeña indicara que los tiempos de ejecución de cada algoritmo están cercanos al promedio, mientras que una desviación estándar grande nos indica que hay un gran margen de variabilidad.
+
+Los algoritmos iterativos  son de orden (n^2) representando el peor caso de tiempo de ejecución ya que si el tamaño del arreglo ordenar aumenta el tiempo de ejecución crece cuadráticamente con este tamaño viéndolo al realizar la práctica Bubblesort es el algoritmo menos eficiente y con el que se produce la mayor demora de todos al intentar el arreglo con arreglos de 5*10^2 el tiempo estimado al menos de una repetición fue de 10 minutos, en otra incluso fueron cerca de 20 por lo que esto dispara el valor en la desviación estándar y comparado con los otros métodos iterativos este resultó ser el que peor tiempos de ejecución maneja. 
+
+Por el contrario con los métodos recursivos Merge-Sort y Q-Sort obtenemos tiempos muchos menores resultando ser los más óptimos cuando se trata de arreglos con tamaños realmente grandes, debido a que crece de manera logarítmica con respecto al tamaño de la entrada, lo cual es más eficiente que una complejidad cuadrática.
+En la gráfica incluso ni se alcanza a apreciar la fluctuación en los tiempos entre merge-sort y quick-sort ya que son algoritmos muy rápidos sin embargo según los datos de la tabla el algoritmo merge es por poco aún más rápido. Para ver esto haremos la siguiente tabla.
+
