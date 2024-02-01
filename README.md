@@ -56,5 +56,9 @@ En la gráfica incluso ni se alcanza a apreciar la fluctuación en los tiempos e
 Iniciando ordenamiento con MERGE SORT...        Ordenado.       Tiempo: 21.899s
 Iniciando ordenamiento con QUICKSORT...         Ordenado.       Tiempo: 147.54s . 
 Algunas otros datos quedaron registrados en la siguiente tabla y gráfica.
+Para 500000,1000000,5000000
 
 ![image](https://github.com/AGN-Teaching/practica-4-algoritmos-de-ordenamiento-B7AGUI/assets/151887010/2f083371-18d9-4a58-b182-433149283e07)
+
+CONCLUSIÓN.
+Con esta práctica podemos analizar la complejidad de los algoritmos de ordenamiento, claramente los iterativos son más fáciles de visualizar y de comprender por lo que son mejores a la hora introducirnos a estos temas de algoritmos de ordenamiento usados para ordenar conjuntos de datos sencillos y pequeños sin embargo los recursivos están más enfocados a conjuntos más grandes y complejos haciendo más uso de memoria en los procesos recursivos pero también con menores tiempos de espera en la ejecución comparado con los iterativos tal como se reflejó en lo anteriormente visto.
